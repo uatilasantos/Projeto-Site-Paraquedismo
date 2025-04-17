@@ -1,0 +1,30 @@
+#cadastro {
+    align-items: center;
+    margin-top: 15px;
+
+    text-align: center;
+}
+
+#sair {
+    text-align: right;
+    margin-top: 15px;
+    margin-right: 70px;
+}
+
+
+input[type="button"] {
+    display: flexbox;
+    width: auto; 
+    margin: 2px auto;
+    padding: 5px 10px;
+    background-color: #3f52fd; 
+    color: #ffffff; 
+    border: none; 
+    border-radius:15px; 
+    cursor: pointer; 
+}
+
+input[type="button"]:hover {
+    background-color: #232f94;
+    
+}

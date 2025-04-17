@@ -1,0 +1,132 @@
+@font-face {
+    font-family: mont-medium;
+    src: url(../fonts/Montserrat-Medium.ttf);
+}
+@font-face {
+    font-family: mont-regular;
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: mont-semibold;
+    src: url(../fonts/Montserrat-SemiBold.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: mont-medium;
+    text-decoration: none;
+}
+
+body{
+    display: flex;
+    background-image: url(../view/img/banner_salto3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}   
+
+form{
+    background-color: #fff;
+    backdrop-filter: blur(15px);
+    background: transparent;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.253);
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 40px;
+    border-radius: 20px;
+}
+
+.titulo{
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: mont-semibold;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.nome{
+    height: 50px;
+    color: white;
+    margin-bottom: 30px;
+    outline: none;
+    background: none;
+    border: 1px solid;
+    border-radius: 100px;
+    padding-left: 20px;
+}
+
+.nome::placeholder{
+    font-size: 1rem;
+    color: white;
+}
+
+.senha{
+    height: 50px;
+    color: white;
+    outline: none;
+    background: none;
+    border: 1px solid;
+    border-radius: 100px;
+    padding-left: 20px;
+}
+
+.senha::placeholder{
+    font-size: 1rem;
+    color: white;
+}
+
+.Lembrar-senha{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.Lembrar-senha a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+}
+
+.btn-login{
+    width: 400px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);   
+    border: none;
+    border-radius: 100px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-size: 1.0rem;
+}
+
+.btn-login a{
+    text-decoration: none;
+    color: black;
+    font-family: mont-semibold;
+}
+
+.cadastre-se{
+    color: white;
+}
+
+.cadastre-se a{
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+}

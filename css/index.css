@@ -1,0 +1,39 @@
+.aside {
+    display: flex;
+    margin: 0 auto;
+    padding: 25px;
+    flex-wrap: wrap;
+    max-width: 1000px;
+}
+
+.aside > div {
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.icon {
+    margin: 0 auto;
+}
+
+.icon > div {
+    margin-left: 10px;
+    flex: 1 1 50px;
+}
+
+.icon > img {
+    margin-left: 20px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.flex > div {
+    flex: 1 1 300px;
+    margin: 20px;
+    padding-bottom: 30px;
+}
+

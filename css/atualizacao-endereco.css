@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: mont-medium;
+    src: url(../fonts/Montserrat-Medium.ttf);
+}
+@font-face {
+    font-family: mont-regular;
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: mont-semibold;
+    src: url(../fonts/Montserrat-SemiBold.ttf);
+}
+
+body{
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 0 10px rgba(187, 187, 195, 0.2);
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background: url(../view/img/salto3.png) no-repeat;
+}
+
+
+form {
+    font-family: mont-medium;
+    border-radius: 20px;
+    border-bottom: #c21010;
+    background-color: #fff;
+    max-width: 500px; 
+    margin: auto; 
+    margin-top: 150px;
+    background: transparent;
+    backdrop-filter: blur(15px);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+form label {
+    margin: 5px;
+}
+
+form input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    padding: 10px;
+    margin-bottom: 12px;
+    border-radius: 20px;
+    color: #ffffff;
+}
+
+form input::placeholder{
+    color: #fff;
+}
+input[type="button"] {
+    display:flexbox;
+    width: auto;
+    margin: 20px auto;
+    padding: 10px 20px; 
+    background-color: #3f52fd;
+    color: #ffffff; 
+    border: none; 
+    border-radius:20px; 
+    cursor: pointer; 
+}
+
+input[type="button"]:hover {
+    background-color: #232f94; 
+}
