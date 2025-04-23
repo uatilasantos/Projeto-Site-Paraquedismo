@@ -7,6 +7,7 @@ Durante o desenvolvimento, foram aplicados os principais conceitos abordados em 
 
 ⚠️ Observação: A API utilizada neste projeto pode não estar mais disponível para consulta no momento em que você estiver acessando este repositório.
 
+
 🔧 Funcionalidades
 Cadastro de informações relacionadas ao usuário (ex: login de acesso, cadastro de endereço, etc.)
 
@@ -16,17 +17,19 @@ Consumo de API para manipulação dos dados
 
 Interface simples e responsiva
 
+
 🚀 Como rodar o projeto
 Clone este repositório:
 
 git clone https://github.com/uatilasantos/Projeto-Site-Paraquedismo.git
 
-Navegue até a pasta "View" dentro do diretóorio do projeto:
-Abra o arquivo index.html diretamente no seu navegador.
+Navegue até a pasta "View" dentro do diretóorio do projeto, abra o arquivo index.html diretamente no seu navegador.
 
 Obs: Como o projeto consome uma API externa, algumas funcionalidades podem não funcionar corretamente se a API não estiver ativa.
 
+
 💻 Tecnologias utilizadas
+
 HTML — estrutura da página
 
 CSS3 — estilização da interface
@@ -34,6 +37,7 @@ CSS3 — estilização da interface
 JavaScript — lógica de interação e consumo da API
 
 Fetch API — para realizar requisições HTTP
+
 
 📚 Aprendizados
 Esse projeto foi uma ótima oportunidade para colocar em prática os fundamentos de desenvolvimento web, especialmente no uso de JavaScript para lidar com APIs e manipulação dinâmica de conteúdo.
